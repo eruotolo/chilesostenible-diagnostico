@@ -1,0 +1,5 @@
+- Boton "Atras": No funciona.
+- Falta el envio de email.
+- Falta archivo excel de descarga.
+- El ciclo de la pregunta 24 a la 25 y 26 no esta funcionando.
+- El grafico muestra algo al final que no iria -----> "TOTAL CAT. 82.50000001"

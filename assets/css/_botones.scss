@@ -1,0 +1,74 @@
+.btn-amarillo {
+    background-color: $color-tres;
+    color: $color-uno;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--p-font-size);
+    padding: 4px 20px 4px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+}
+
+.btn-amarillo:hover {
+    background-color: $color-cuatro;
+    color: $color-dos;
+    text-decoration: none;
+}
+
+.btn-rojo {
+    background-color: $color-cuatro;
+    color: $color-dos;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--p-font-size);
+    padding: 4px 20px 4px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+}
+
+.btn-rojo:hover {
+    background-color: $color-tres;
+    color: $color-uno;
+    text-decoration: none;
+}
+
+.align-derecha {
+    float: right;
+}
+
+.align-izquierda {
+    float: left;
+}
+
+.btn-salir{
+    position: relative;
+    z-index: 99;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Avenir-Light';
+    background-color: $color-tres;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 25px;
+}
+.btn-salir:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: $color-cuatro;
+}

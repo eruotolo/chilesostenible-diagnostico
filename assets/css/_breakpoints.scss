@@ -1,0 +1,113 @@
+$breakpoints: (
+    "md": 720px,
+    "lg": 1101px,
+    "xl": 1367px,
+    "xxl": 1440px,
+);
+
+@mixin md {
+    @media (min-width: map-get($breakpoints, "md")) {
+        @content;
+        --h1-font-size: 1.75rem;
+        /* 40 */
+        --h2-font-size: 1.5rem;
+        /* 32px */
+        --h3-font-size: 1.25rem;
+        /* 28px */
+        --h4-font-size: 1rem;
+        /* 24px */
+        --h5-font-size: 0.875rem;
+        /* 20px */
+        --h6-font-size: 0.75rem;
+        /* 16px */
+        --p-font-size: 0.70rem;
+        /* 14px */
+    }
+}
+
+@mixin lg {
+    @media (min-width: map-get($breakpoints, "lg")) {
+        @content;
+        --h1-font-size: 2rem;
+        /* 40 */
+        --h2-font-size: 1.75rem;
+        /* 32px */
+        --h3-font-size: 1.5rem;
+        /* 28px */
+        --h4-font-size: 1.25rem;
+        /* 24px */
+        --h5-font-size: 1rem;
+        /* 20px */
+        --h6-font-size: 0.875rem;
+        /* 16px */
+        --p-font-size: 0.75rem;
+        /* 14px */
+    }
+}
+
+@mixin xl {
+    @media (min-width: map-get($breakpoints, "xl")) {
+        @content;
+        --h1-font-size: 3rem;
+        /* 40 */
+        --h2-font-size: 2.5rem;
+        /* 32px */
+        --h3-font-size: 2rem;
+        /* 28px */
+        --h4-font-size: 1.5rem;
+        /* 24px */
+        --h5-font-size: 1.25rem;
+        /* 20px */
+        --h6-font-size: 1rem;
+        /* 16px */
+        --p-font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+
+@mixin xxl {
+    @media (min-width: map-get($breakpoints, "xxl")) and (min-height: 768px) and (max-height: 900px){
+        @content;
+        --h1-font-size: 3rem;
+        /* 40 */
+        --h2-font-size: 2.5rem;
+        /* 32px */
+        --h3-font-size: 2rem;
+        /* 28px */
+        --h4-font-size: 1.5rem;
+        /* 24px */
+        --h5-font-size: 1.25rem;
+        /* 20px */
+        --h6-font-size: 1rem;
+        /* 16px */
+        --p-font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+@mixin ext {
+  @media (min-width: map-get($breakpoints, "xxl")) and (max-height: 767px){
+      @content;
+      --h1-font-size: 3rem;
+      /* 40 */
+      --h2-font-size: 2.5rem;
+      /* 32px */
+      --h3-font-size: 2rem;
+      /* 28px */
+      --h4-font-size: 1.5rem;
+      /* 24px */
+      --h5-font-size: 1.25rem;
+      /* 20px */
+      --h6-font-size: 1rem;
+      /* 16px */
+      --p-font-size: 0.875rem;
+      /* 14px */
+  }
+}
+
+@mixin breakpoint($bp: 0) {
+    @media (min-width: $bp){
+        @content;
+    }
+}

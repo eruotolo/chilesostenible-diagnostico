@@ -1,0 +1,6093 @@
+@charset "UTF-8";
+/* --------- VARIABLES & FONTS ----------- */
+/* ------------------- COLORES ------------------- */
+/* ------------------- FONTS --------------------- */
+@font-face {
+  font-family: "Avenir-Black";
+  src: url("../fonts/Avenir-Black.eot");
+  src: url("../fonts/Avenir-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Black.svg#Avenir-Black") format("svg"), url("../fonts/Avenir-Black.ttf") format("truetype"), url("../fonts/Avenir-Black.woff") format("woff"), url("../fonts/Avenir-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-BlackOblique";
+  src: url("../fonts/Avenir-BlackOblique.eot");
+  src: url("../fonts/Avenir-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-BlackOblique.svg#Avenir-BlackOblique") format("svg"), url("../fonts/Avenir-BlackOblique.ttf") format("truetype"), url("../fonts/Avenir-BlackOblique.woff") format("woff"), url("../fonts/Avenir-BlackOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Book";
+  src: url("../fonts/Avenir-Book.eot");
+  src: url("../fonts/Avenir-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Book.svg#Avenir-Book") format("svg"), url("../fonts/Avenir-Book.ttf") format("truetype"), url("../fonts/Avenir-Book.woff") format("woff"), url("../fonts/Avenir-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-BookOblique";
+  src: url("../fonts/Avenir-BookOblique.eot");
+  src: url("../fonts/Avenir-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-BookOblique.svg#Avenir-BookOblique") format("svg"), url("../fonts/Avenir-BookOblique.ttf") format("truetype"), url("../fonts/Avenir-BookOblique.woff") format("woff"), url("../fonts/Avenir-BookOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("../fonts/Avenir-Heavy.eot");
+  src: url("../fonts/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Heavy.svg#Avenir-Heavy") format("svg"), url("../fonts/Avenir-Heavy.ttf") format("truetype"), url("../fonts/Avenir-Heavy.woff") format("woff"), url("../fonts/Avenir-Heavy.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-HeavyOblique";
+  src: url("../fonts/Avenir-HeavyOblique.eot");
+  src: url("../fonts/Avenir-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-HeavyOblique.svg#Avenir-HeavyOblique") format("svg"), url("../fonts/Avenir-HeavyOblique.ttf") format("truetype"), url("../fonts/Avenir-HeavyOblique.woff") format("woff"), url("../fonts/Avenir-HeavyOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("../fonts/Avenir-Light.eot");
+  src: url("../fonts/Avenir-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Light.svg#Avenir-Light") format("svg"), url("../fonts/Avenir-Light.ttf") format("truetype"), url("../fonts/Avenir-Light.woff") format("woff"), url("../fonts/Avenir-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-LightOblique";
+  src: url("../fonts/Avenir-LightOblique.eot");
+  src: url("../fonts/Avenir-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-LightOblique.svg#Avenir-LightOblique") format("svg"), url("../fonts/Avenir-LightOblique.ttf") format("truetype"), url("../fonts/Avenir-LightOblique.woff") format("woff"), url("../fonts/Avenir-LightOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../fonts/Avenir-Medium.eot");
+  src: url("../fonts/Avenir-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Medium.svg#Avenir-Medium") format("svg"), url("../fonts/Avenir-Medium.ttf") format("truetype"), url("../fonts/Avenir-Medium.woff") format("woff"), url("../fonts/Avenir-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-MediumOblique";
+  src: url("../fonts/Avenir-MediumOblique.eot");
+  src: url("../fonts/Avenir-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-MediumOblique.svg#Avenir-MediumOblique") format("svg"), url("../fonts/Avenir-MediumOblique.ttf") format("truetype"), url("../fonts/Avenir-MediumOblique.woff") format("woff"), url("../fonts/Avenir-MediumOblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Oblique";
+  src: url("../fonts/Avenir-Oblique.eot");
+  src: url("../fonts/Avenir-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Oblique.svg#Avenir-Oblique") format("svg"), url("../fonts/Avenir-Oblique.ttf") format("truetype"), url("../fonts/Avenir-Oblique.woff") format("woff"), url("../fonts/Avenir-Oblique.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("../fonts/Avenir-Roman.eot");
+  src: url("../fonts/Avenir-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir-Roman.svg#Avenir-Roman") format("svg"), url("../fonts/Avenir-Roman.ttf") format("truetype"), url("../fonts/Avenir-Roman.woff") format("woff"), url("../fonts/Avenir-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/*-------------  DECLARACIÓN TAMAÑO FONTS -------- */
+/* --------- BASE - LAYOUTS -------------- */
+input[type=text],
+input[type=password],
+input[type=datetime],
+input[type=datetime-local],
+input[type=date],
+input[type=month],
+input[type=time],
+input[type=week],
+input[type=number],
+input[type=email],
+input[type=url],
+input[type=search],
+input[type=tel],
+input[type=color],
+.uneditable-input,
+select,
+textarea {
+  font-family: "Avenir-Light";
+}
+
+@media (min-width: 720px) {
+  h1 {
+    font-size: 1.75rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h1 {
+    font-size: 2rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h1 {
+    font-size: 3rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h1 {
+    font-size: 3rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h1 {
+    font-size: 3rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  h2 {
+    font-size: 1.5rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h2 {
+    font-size: 1.75rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h2 {
+    font-size: 2.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h2 {
+    font-size: 2.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h2 {
+    font-size: 2.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  h3 {
+    font-size: 1.25rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h3 {
+    font-size: 1.5rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h3 {
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h3 {
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h3 {
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  h4 {
+    font-size: 1rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h4 {
+    font-size: 1.25rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h4 {
+    font-size: 1.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h4 {
+    font-size: 1.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h4 {
+    font-size: 1.5rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  h5 {
+    font-size: 0.875rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h5 {
+    font-size: 1rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h5 {
+    font-size: 1.25rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h5 {
+    font-size: 1.25rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h5 {
+    font-size: 1.25rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  h6 {
+    font-size: 0.75rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  h6 {
+    font-size: 0.875rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  h6 {
+    font-size: 1rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  h6 {
+    font-size: 1rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  h6 {
+    font-size: 1rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  p {
+    font-size: 0.7rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  p {
+    font-size: 0.75rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  p {
+    font-size: 0.875rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  p {
+    font-size: 0.875rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  p {
+    font-size: 0.875rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+body {
+  font-family: "Avenir-Light";
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+@media (min-width: 720px) {
+  #cabezal {
+    height: 14vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  #cabezal {
+    height: 14vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  #cabezal {
+    height: 15vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  #cabezal {
+    height: 15vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  #cabezal {
+    height: 15vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+#footer {
+  background-color: #292929;
+}
+@media (min-width: 720px) {
+  #footer {
+    height: 4vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  #footer {
+    height: 4vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  #footer {
+    height: 5vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  #footer {
+    height: 5vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  #footer {
+    height: 5vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  #contenido {
+    height: 72vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  #contenido {
+    height: 72vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  #contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  #contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  #contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .container {
+    max-width: 860px;
+    width: 860px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .container {
+    max-width: 980px;
+    width: 980px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .container {
+    max-width: 1280px;
+    width: 1280px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .container {
+    max-width: 1280px;
+    width: 1280px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .container {
+    max-width: 1280px;
+    width: 1280px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.contenido {
+  background-color: #ffffff;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+@media (min-width: 720px) {
+  .contenido {
+    height: 70vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .contenido {
+    height: 70vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .contenido {
+    height: 70vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.logo > img {
+  height: 10vh;
+  margin-top: 2vh;
+}
+
+/* ---------------------------- CSS BOTONERA -------------------------------- */
+/*-- BARRA DE PROGRESO --*/
+.progress {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 4px;
+}
+
+.bg-primary {
+  background-color: #000000 !important;
+  height: 4px;
+}
+
+.barra > p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: -12px;
+}
+
+/*-- FIN BARRA DE PROGRESO --*/
+.botonera {
+  height: 10vh;
+}
+
+/* ---------------------------- CSS FOOTER ---------------------------------- */
+@media (min-width: 720px) {
+  .footer > h6 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .footer > h6 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 2px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .footer > h6 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .footer > h6 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .footer > h6 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.footer > h6 > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+  .footer-01 > a {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 0;
+    float: right;
+    font-size: var(--h6-font-size);
+    text-decoration: none;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .footer-01 > a {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 2px;
+    float: right;
+    font-size: var(--h6-font-size);
+    text-decoration: none;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .footer-01 > a {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 10px;
+    float: right;
+    font-size: var(--h6-font-size);
+    text-decoration: none;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .footer-01 > a {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 10px;
+    float: right;
+    font-size: var(--h6-font-size);
+    text-decoration: none;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .footer-01 > a {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 10px;
+    float: right;
+    font-size: var(--h6-font-size);
+    text-decoration: none;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .central {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .central {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .central {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .central {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .central {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .central-01 {
+    width: 100%;
+    height: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .central-01 {
+    width: 100%;
+    height: 90%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .central-01 {
+    width: 100%;
+    height: 90%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .central-01 {
+    width: 100%;
+    height: 90%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .central-01 {
+    width: 100%;
+    height: 90%;
+    padding-left: 15%;
+    padding-right: 15%;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-text-central {
+    padding-top: 0;
+    padding-bottom: 0;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-text-central {
+    padding-top: 0;
+    padding-bottom: 0;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-text-central {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-text-central {
+    padding-top: 10px;
+    padding-bottom: 0;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-text-central {
+    padding-top: 10px;
+    padding-bottom: 0;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-text-central > div > h6 {
+    font-size: 0.65rem;
+    line-height: 14px;
+    text-align: justify;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-text-central > div > h6 {
+    font-size: 0.875rem;
+    line-height: 20px;
+    text-align: justify;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-text-central > div > h6 {
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: justify;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-text-central > div > h6 {
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: justify;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-text-central > div > h6 {
+    font-size: 0.9rem;
+    line-height: 22px;
+    text-align: justify;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-text-central-02 {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-text-central-02 {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-text-central-02 {
+    padding-top: 13vh;
+    padding-bottom: 12vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-text-central-02 {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-text-central-02 {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.text-desarrollo {
+  border-right: 3px solid #000000;
+}
+
+.text-desarrollo > h6 > strong {
+  font-family: "Avenir-Black";
+}
+
+.logo-sdg {
+  margin-left: 18px;
+  height: 10vh;
+}
+
+.logo-eva {
+  height: 10vh;
+}
+
+.barra-progress {
+  width: 100%;
+  height: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.txt-saveclose > h3 {
+  text-align: center;
+  margin-top: 12vh;
+  font-family: "Avenir-Medium";
+  text-transform: uppercase;
+}
+
+.line-central > hr {
+  border: 4px solid #000000;
+  border-radius: 10px;
+  width: 6vw;
+  margin: 4vh auto auto;
+}
+
+/* ---------------------------- CSS TITULO ---------------------------- */
+@media (min-width: 720px) {
+  .icono-principal > img {
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .icono-principal > img {
+    width: 40%;
+    float: right;
+    margin-top: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .icono-principal > img {
+    width: 40%;
+    float: right;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .icono-principal > img {
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .icono-principal > img {
+    width: 30%;
+    float: right;
+    margin-top: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .titulo-principal > h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 4%;
+    font-family: "Avenir-Black";
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .titulo-principal > h3 {
+    margin-top: 6%;
+    font-family: "Avenir-Black";
+    line-height: 32px;
+    font-size: 1.5rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .titulo-principal > h3 {
+    margin-top: 6%;
+    font-family: "Avenir-Black";
+    line-height: 32px;
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .titulo-principal > h3 {
+    margin-top: 4%;
+    font-family: "Avenir-Black";
+    line-height: 32px;
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .titulo-principal > h3 {
+    margin-top: 4%;
+    font-family: "Avenir-Black";
+    line-height: 32px;
+    font-size: 2rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/* ---------------------------- CSS SPONSORS -------------------------------- */
+@media (min-width: 720px) {
+  .auspician > img {
+    width: 195px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .auspician > img {
+    width: 240px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .auspician > img {
+    width: 370px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .auspician > img {
+    width: 310px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .auspician > img {
+    width: 300px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/* ---------------------------- CSS PREGUNTAS ------------------------------ */
+.cont-subtitulos {
+  height: 70vh;
+}
+
+@media (min-width: 720px) {
+  .titulo-subtitulo {
+    height: 30vh;
+    padding-top: 4vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .titulo-subtitulo {
+    height: 30vh;
+    padding-top: 4vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .titulo-subtitulo {
+    height: 30vh;
+    padding-top: 6vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .titulo-subtitulo {
+    height: 30vh;
+    padding-top: 4vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .titulo-subtitulo {
+    height: 30vh;
+    padding-top: 4vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .auspician {
+    height: 40vh;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .auspician {
+    height: 40vh;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .auspician {
+    height: 40vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .auspician {
+    height: 40vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .auspician {
+    height: 40vh;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-subtitulos > div > h3 {
+    font-family: "Avenir-Heavy";
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-subtitulos > div > h3 {
+    font-family: "Avenir-Heavy";
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-subtitulos > div > h3 {
+    font-family: "Avenir-Heavy";
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-subtitulos > div > h3 {
+    font-family: "Avenir-Heavy";
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-subtitulos > div > h3 {
+    font-family: "Avenir-Heavy";
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.cont-subtitulos > div > hr {
+  border: 4px solid #cc004c;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 60px;
+}
+
+@media (min-width: 720px) {
+  .cont-subtitulos > div > h5 {
+    text-transform: uppercase;
+    font-size: var(--h5-font-size);
+    line-height: 1.25rem;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-subtitulos > div > h5 {
+    text-transform: uppercase;
+    font-size: var(--h5-font-size);
+    line-height: 1.25rem;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-subtitulos > div > h5 {
+    text-transform: uppercase;
+    font-size: var(--h5-font-size);
+    line-height: 1.35rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-subtitulos > div > h5 {
+    text-transform: uppercase;
+    font-size: var(--h5-font-size);
+    line-height: 1.25rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-subtitulos > div > h5 {
+    text-transform: uppercase;
+    font-size: var(--h5-font-size);
+    line-height: 1.25rem;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/*---------------- CONTENIDO DE PREGUNTAS ----------------*/
+@media (min-width: 720px) {
+  .preguntas {
+    margin-top: 20px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .preguntas {
+    margin-top: 20px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .preguntas {
+    margin-top: 50px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .preguntas {
+    margin-top: 50px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/*-------- FIN SCROLL DE PREGUNTAS --------*/
+@media (min-width: 720px) {
+  .pregunta-cond-01 > h6,
+.preguntas > h6 {
+    margin-bottom: 20px;
+    font-family: "Avenir-Medium";
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .pregunta-cond-01 > h6,
+.preguntas > h6 {
+    margin-bottom: 20px;
+    font-family: "Avenir-Medium";
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .pregunta-cond-01 > h6,
+.preguntas > h6 {
+    margin-bottom: 20px;
+    font-family: "Avenir-Medium";
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .pregunta-cond-01 > h6,
+.preguntas > h6 {
+    margin-bottom: 20px;
+    font-family: "Avenir-Medium";
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.cont-checkbox::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+.cont-checkbox::-webkit-scrollbar-thumb {
+  background: #cc004c;
+  border-radius: 5px;
+}
+
+@media (min-width: 720px) {
+  .form-input,
+.form-select {
+    margin-bottom: -10px !important;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .form-input,
+.form-select {
+    margin-bottom: -10px !important;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .form-input,
+.form-select {
+    margin-bottom: 0 !important;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .form-input > label,
+.form-select > label {
+    font-size: var(--h6-font-size);
+    font-family: "Avenir-Light";
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .form-input > label,
+.form-select > label {
+    font-size: var(--h6-font-size);
+    font-family: "Avenir-Light";
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .form-input > label,
+.form-select > label {
+    font-size: var(--h6-font-size);
+    font-family: "Avenir-Light";
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .form-input > label,
+.form-select > label {
+    font-size: var(--h6-font-size);
+    font-family: "Avenir-Light";
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .form-input > label,
+.form-select > label {
+    font-size: var(--h6-font-size);
+    font-family: "Avenir-Light";
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .form-input > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    font-family: "Avenir-Light";
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .form-input > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    font-family: "Avenir-Light";
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .form-input > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    font-family: "Avenir-Light";
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .form-input > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    font-family: "Avenir-Light";
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .form-input > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    font-family: "Avenir-Light";
+    border: 0;
+    border-radius: 6px;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.input-rut > input::placeholder {
+  color: #38414e;
+  font-weight: 600;
+  font-family: "Avenir-Heavy";
+}
+
+.form-input > input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
+@media (min-width: 720px) {
+  .form-select > select {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    font-family: "Avenir-Light";
+    color: #000000;
+    font-size: var(--h6-font-size);
+    line-height: 18px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .form-select > select {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    font-family: "Avenir-Light";
+    color: #000000;
+    font-size: var(--h6-font-size);
+    line-height: 18px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .form-select > select {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    font-family: "Avenir-Light";
+    color: #000000;
+    font-size: var(--h6-font-size);
+    line-height: 18px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .form-select > select {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    font-family: "Avenir-Light";
+    color: #000000;
+    font-size: var(--h6-font-size);
+    line-height: 18px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .form-select > select {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.06);
+    font-family: "Avenir-Light";
+    color: #000000;
+    font-size: var(--h6-font-size);
+    line-height: 18px;
+    width: 100%;
+    border: 0;
+    height: 30px;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+[type=checkbox] {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .check-box > label {
+    font-family: "Avenir-Light";
+    font-size: var(--h6-font-size);
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .check-box > label {
+    font-family: "Avenir-Light";
+    font-size: var(--h6-font-size);
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .check-box > label {
+    font-family: "Avenir-Light";
+    font-size: var(--h6-font-size);
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .check-box > label {
+    font-family: "Avenir-Light";
+    font-size: var(--h6-font-size);
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .check-box > label {
+    font-family: "Avenir-Light";
+    font-size: var(--h6-font-size);
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 18px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .check-box > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 15px;
+    height: 15px;
+    left: 0;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .check-box > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 18px;
+    height: 18px;
+    left: 0;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .check-box > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 18px;
+    height: 18px;
+    left: 0;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .check-box > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 18px;
+    height: 18px;
+    left: 0;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .check-box > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 18px;
+    height: 18px;
+    left: 0;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.check-box > label > strong {
+  font-family: "Avenir-Medium";
+}
+
+@media (min-width: 720px) {
+  [type=checkbox]:checked + label:before {
+    color: #fcb711;
+    background-color: #000000;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 2px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  [type=checkbox]:checked + label:before {
+    color: #fcb711;
+    background-color: #000000;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 2px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  [type=checkbox]:checked + label:before {
+    color: #fcb711;
+    background-color: #000000;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 2px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  [type=checkbox]:checked + label:before {
+    color: #fcb711;
+    background-color: #000000;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 2px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  [type=checkbox]:checked + label:before {
+    color: #fcb711;
+    background-color: #000000;
+    content: "\f00c";
+    font-family: "FontAwesome";
+    font-size: 16px;
+    line-height: 15px;
+    padding-left: 2px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .check-text > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .check-text > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .check-text > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .check-text > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .check-text > input {
+    background-color: rgba(0, 0, 0, 0.06);
+    font-size: var(--h6-font-size);
+    color: #000000;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .check-text > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .check-text > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .check-text > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .check-text > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .check-text > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-checkbox::-webkit-scrollbar-thumb {
+    background: #cc004c;
+    border-radius: 5px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-checkbox::-webkit-scrollbar-thumb {
+    background: #cc004c;
+    border-radius: 5px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-checkbox::-webkit-scrollbar-thumb {
+    background: #cc004c;
+    border-radius: 5px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-checkbox::-webkit-scrollbar-thumb {
+    background: #cc004c;
+    border-radius: 5px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-checkbox::-webkit-scrollbar-thumb {
+    background: #cc004c;
+    border-radius: 5px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .cont-condicional {
+    margin-top: 20px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .cont-condicional {
+    margin-top: 30px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .cont-condicional {
+    margin-top: 40px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .cont-condicional {
+    margin-top: 40px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .cont-condicional {
+    margin-top: 40px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/*---------- CSS BOTONES DE AYUDA TOOLTIP ----------*/
+.btn_ayuda_01 {
+  float: right;
+}
+
+.btn_ayuda_01 > img {
+  width: 16px;
+  float: right;
+}
+
+/*---------- CSS SAVE AND CLOSE --------------------*/
+.saveandclose {
+  padding-top: 7vh;
+}
+
+.saveandclose > img {
+  width: 45%;
+  float: right;
+  margin-top: 10px;
+}
+
+.saveandclose > h3 {
+  margin-top: 6%;
+  font-family: "Avenir-Black";
+  line-height: 32px;
+  font-size: 30px;
+}
+
+.texto-out > h3 {
+  text-align: center;
+  padding-top: 5vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 30px;
+}
+
+/* ---------------------------- CSS LOGIN Y BACK-END ------------------------------ */
+.login-form {
+  margin-top: 14vh;
+}
+
+.form-login {
+  margin-bottom: 1.3vh;
+}
+
+.form-login > label {
+  font-family: "Avenir-Light";
+  font-size: var(--h5-font-size);
+}
+
+.form-login > input {
+  width: 100%;
+  font-size: var(--h6-font-size);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.btn-ingresar {
+  margin-top: 4vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1367px) {
+  .form-login > input {
+    width: 100%;
+    font-size: var(--h6-font-size);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 10px;
+  }
+}
+.titulos h5 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Avenir-Light";
+}
+
+.datos-empresa > h4 {
+  color: #ebedef;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.empresa {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: #38414e;
+  padding: 8px 0 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.icono-empresa {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding-top: 6px;
+}
+
+.icono-empresa > img {
+  height: 20px;
+  width: 20px;
+}
+
+.datos-empresa > a > img {
+  /* width: 1.7vw; */
+  margin-top: 7px;
+  height: 3vh;
+}
+
+.btn-excel {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.btn-excel > button {
+  background: none;
+  border: 1px solid #fcb711;
+  font-size: 14px;
+  font-family: "Avenir-Light";
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 20px 8px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.btn-excel > button:hover {
+  border: 2px solid #fcb711;
+}
+
+.btn-excel > button > img {
+  float: left;
+  width: 1vw;
+  padding-right: 3px;
+  margin-right: 6px;
+}
+
+.volver > a {
+  float: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #fcb711;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 6px 25px 4px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.info-org {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  background-color: #38414e;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.datos-empresa > h5 {
+  color: #fcb711;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.preguntas-view {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  background-color: #38414e;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.titulo-pregunta {
+  margin-bottom: 20px;
+}
+
+.titulo-pregunta > h4 {
+  color: #fcb711;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.respuesta > select {
+  background-color: #ebedef;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.3px;
+  padding-left: 10px;
+  font-family: "Avenir-Light";
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.check-box-view > label {
+  padding-left: 2.5em;
+  padding-right: 0.5em;
+  position: relative;
+  margin-bottom: 16px;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  color: #ebedef;
+}
+
+.check-box-view > label:before {
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+  background-color: #ebedef;
+  width: 16px;
+  height: 16px;
+  left: 0;
+}
+
+[type=checkbox]:checked + label:before {
+  color: #fcb711;
+  content: "\f00c";
+  background-color: #000000;
+  font-family: "FontAwesome";
+  font-size: 14px;
+  line-height: 15px;
+  padding-left: 2px;
+}
+
+/* ---------------------------- CSS RESUMEN ------------------------------ */
+.titulos-resumen {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.icono-resumen > img {
+  width: 80px;
+  height: 80px;
+  float: right;
+}
+
+.titulo-resumen > h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 3.5vh;
+}
+
+.list-group-flush {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  padding: 0.45rem 1.5rem 0.45rem 0.1rem;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Avenir-Light";
+}
+
+.list-group-item > b {
+  font-family: var(--font-medium);
+  margin-right: 5px;
+}
+
+.rubro {
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.list-group-item > b {
+  font-size: 14px;
+  color: white;
+  padding-right: 10px;
+}
+
+.grafico-totales {
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 320px !important;
+  margin-top: 30px;
+}
+
+#contenido-secundario {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.grafico-categorias {
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.gober-trans {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.soc-per {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.medio-amb {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.titulo-gob-trans > h4 {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #cc004c;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  width: 190px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.titulo-soc-per > h4 {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  width: 190px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.titulo-med-amb > h4 {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fcb711;
+  color: #000000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 190px;
+}
+
+.titulo-gob-trans > img,
+.titulo-med-amb > img,
+.titulo-soc-per > img {
+  width: 2.5vw;
+}
+
+@media (min-width: 720px) {
+  .titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    padding-top: 73px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    padding-top: 73px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    padding-top: 73px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    padding-top: 73px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    padding-top: 73px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+.titulo-gob-trans-1 > img,
+.titulo-med-amb-1 > img,
+.titulo-soc-per-1 > img {
+  width: 2.5vw;
+}
+
+.titulo-gob-trans > h6,
+.titulo-med-amb > h6,
+.titulo-soc-per > h6 {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.titulo-gob-trans-1 > h6,
+.titulo-med-amb-1 > h6,
+.titulo-soc-per-1 > h6 {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.fortalezas {
+  background-color: rgba(0, 0, 0, 0.06);
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.brechas {
+  background-color: rgba(0, 0, 0, 0.06);
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.brechas > li,
+.fortalezas > li {
+  font-size: 14px;
+  font-family: "Avenir-Light";
+}
+
+#chartdiv,
+#chartdiv2,
+#chartdiv3 {
+  height: 290px !important;
+}
+
+.logocorp {
+  margin-top: 38vh;
+}
+
+.logocorp-1 {
+  margin-top: 32vh;
+}
+
+.logocorp-2 {
+  margin-top: 30vh;
+}
+
+.logocorp > img,
+.logocorp-1 > img,
+.logocorp-2 > img {
+  width: 22vw;
+  margin-left: 120px;
+}
+
+#contenido-generla {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#pie-resumen {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.pie-link > img {
+  height: 56px;
+}
+
+.pie-descarga > a > img {
+  width: 30px;
+}
+
+#box-mensaje {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo-mensaje > img {
+  width: 90px;
+  float: right;
+}
+
+.texto-mensaje > h5 {
+  color: #ffffff;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.btn-amarillo {
+  background-color: #fcb711;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--p-font-size);
+  padding: 4px 20px 4px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+
+.btn-amarillo:hover {
+  background-color: #cc004c;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-rojo {
+  background-color: #cc004c;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: var(--p-font-size);
+  padding: 4px 20px 4px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+
+.btn-rojo:hover {
+  background-color: #fcb711;
+  color: #000000;
+  text-decoration: none;
+}
+
+.align-derecha {
+  float: right;
+}
+
+.align-izquierda {
+  float: left;
+}
+
+.btn-salir {
+  position: relative;
+  z-index: 99;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Avenir-Light";
+  background-color: #fcb711;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 25px;
+}
+
+.btn-salir:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #cc004c;
+}
+
+/*-------- SCROLL DE PREGUNTAS --------------*/
+@media (min-width: 720px) {
+  .scroll-01 {
+    overflow: scroll;
+    height: 42vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-01 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-01 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-01 {
+    overflow: scroll;
+    height: 46vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-01 {
+    overflow: scroll;
+    height: 46vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-02 {
+    overflow: scroll;
+    height: 25vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-02 {
+    overflow: scroll;
+    height: 30vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-02 {
+    overflow: scroll;
+    height: 35vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-02 {
+    overflow: scroll;
+    height: 35vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-03 {
+    overflow: scroll;
+    height: 40vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-03 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-03 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-03 {
+    overflow: scroll;
+    height: 44vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-04 {
+    overflow: scroll;
+    height: 40vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-04 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-04 {
+    overflow: scroll;
+    height: 43vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-04 {
+    overflow: scroll;
+    height: 46vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-05 {
+    overflow: scroll;
+    height: 20vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-05 {
+    overflow: scroll;
+    height: 25vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-05 {
+    overflow: scroll;
+    height: 25vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-06 {
+    overflow: scroll;
+    height: 52vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-06 {
+    overflow: scroll;
+    height: 53vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-06 {
+    overflow: scroll;
+    height: 53vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-06 {
+    overflow: scroll;
+    height: 53vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-06 {
+    overflow: scroll;
+    height: 52vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-07 {
+    overflow: scroll;
+    height: 47vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-07 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-07 {
+    overflow: scroll;
+    height: 53vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-07 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-07 {
+    overflow: scroll;
+    height: 48vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-08 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-08 {
+    overflow: scroll;
+    height: 48vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-08 {
+    overflow: scroll;
+    height: 53vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-08 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-08 {
+    overflow: scroll;
+    height: 46vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-09 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-09 {
+    overflow: scroll;
+    height: 48vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-09 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (min-height: 768px) and (max-height: 900px) {
+  .scroll-09 {
+    overflow: scroll;
+    height: 47vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1440px) and (max-height: 767px) {
+  .scroll-09 {
+    overflow: scroll;
+    height: 44vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+@media (min-width: 720px) {
+  .scroll-10 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 1.75rem;
+    /* 40 */
+    --h2-font-size: 1.5rem;
+    /* 32px */
+    --h3-font-size: 1.25rem;
+    /* 28px */
+    --h4-font-size: 1rem;
+    /* 24px */
+    --h5-font-size: 0.875rem;
+    /* 20px */
+    --h6-font-size: 0.75rem;
+    /* 16px */
+    --p-font-size: 0.70rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1101px) {
+  .scroll-10 {
+    overflow: scroll;
+    height: 45vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 2rem;
+    /* 40 */
+    --h2-font-size: 1.75rem;
+    /* 32px */
+    --h3-font-size: 1.5rem;
+    /* 28px */
+    --h4-font-size: 1.25rem;
+    /* 24px */
+    --h5-font-size: 1rem;
+    /* 20px */
+    --h6-font-size: 0.875rem;
+    /* 16px */
+    --p-font-size: 0.75rem;
+    /* 14px */
+  }
+}
+@media (min-width: 1367px) {
+  .scroll-10 {
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+    padding-right: 10px;
+    --h1-font-size: 3rem;
+    /* 40 */
+    --h2-font-size: 2.5rem;
+    /* 32px */
+    --h3-font-size: 2rem;
+    /* 28px */
+    --h4-font-size: 1.5rem;
+    /* 24px */
+    --h5-font-size: 1.25rem;
+    /* 20px */
+    --h6-font-size: 1rem;
+    /* 16px */
+    --p-font-size: 0.875rem;
+    /* 14px */
+  }
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

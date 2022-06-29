@@ -1,2 +1,4 @@
-# chilesostenible-diagnostico
- 
+# DATOS DE RESOLUCIÓN DE PANTALLA
+
+1440 px x 900 px
+2560 px × 1600 px

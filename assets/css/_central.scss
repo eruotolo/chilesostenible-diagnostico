@@ -1,0 +1,1443 @@
+.central {
+    @include md {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    @include lg {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include xl {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include xxl {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include ext {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+.central-01 {
+    @include md {
+        width: 100%;
+        height: 90%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    @include lg {
+        width: 100%;
+        height: 90%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include xl {
+        width: 100%;
+        height: 90%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include xxl {
+        width: 100%;
+        height: 90%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    @include ext{
+        width: 100%;
+        height: 90%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+.cont-text-central {
+    @include md {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @include lg {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    @include xl {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    @include xxl {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    @include ext {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+}
+
+.cont-text-central > div > h6 {
+    @include md {
+        font-size: 0.65rem;
+        line-height: 14px;
+        text-align: justify;
+    }
+    @include lg {
+        font-size: 0.875rem;
+        line-height: 20px;
+        text-align: justify;
+    }
+    @include xl {
+        font-size: 1rem;
+        line-height: 23px;
+        text-align: justify;
+    }
+    @include xxl {
+        font-size: 0.9rem;
+        line-height: 22px;
+        text-align: justify;
+    }
+    @include ext {
+        font-size: 0.9rem;
+        line-height: 22px;
+        text-align: justify;
+    }
+}
+
+.cont-text-central-02 {
+    @include md {
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+    @include lg {
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+    @include xl {
+        padding-top: 13vh;
+        padding-bottom: 12vh;
+    }
+    @include xxl {
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+    @include ext {
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+    }
+}
+
+.text-desarrollo {
+    border-right: 3px solid #000000;
+}
+
+.text-desarrollo > h6 > strong {
+    font-family: 'Avenir-Black';
+}
+
+.logo-sdg {
+    margin-left: 18px;
+    height: 10vh;
+}
+
+.logo-eva {
+    height: 10vh;
+}
+
+.barra-progress {
+    width: 100%;
+    height: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.txt-saveclose > h3 {
+    text-align: center;
+    margin-top: 12vh;
+    font-family: 'Avenir-Medium';
+    text-transform: uppercase;
+}
+
+.line-central > hr {
+    border: 4px solid $color-uno;
+    border-radius: 10px;
+    width: 6vw;
+    margin: 4vh auto auto;
+}
+/* ---------------------------- CSS TITULO ---------------------------- */
+.icono-principal > img {
+    @include md {
+        width: 30%;
+        float: right;
+        margin-top: 10px;
+    }
+    @include lg {
+        width: 40%;
+        float: right;
+        margin-top: 10px;
+    }
+    @include xl {
+        width: 40%;
+        float: right;
+        margin-top: 10px;
+    }
+    @include xxl {
+        width: 30%;
+        float: right;
+        margin-top: 10px;
+    }
+    @include ext {
+        width: 30%;
+        float: right;
+        margin-top: 10px;
+    }
+}
+
+.titulo-principal > h3 {
+    @include md {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 4%;
+        font-family: $font-black;
+    }
+    @include lg {
+        margin-top: 6%;
+        font-family: $font-black;
+        line-height: 32px;
+        font-size: 1.5rem;
+    }
+    @include xl {
+        margin-top: 6%;
+        font-family: $font-black;
+        line-height: 32px;
+        font-size: 2rem;
+    }
+    @include xxl {
+        margin-top: 4%;
+        font-family: $font-black;
+        line-height: 32px;
+        font-size: 2rem;
+    }
+    @include ext {
+        margin-top: 4%;
+        font-family: $font-black;
+        line-height: 32px;
+        font-size: 2rem;
+    }
+}
+/* ---------------------------- CSS SPONSORS -------------------------------- */
+.auspician > img {
+    @include md {
+        width: 195px;
+    }
+    @include lg {
+        width: 240px;
+    }
+    @include xl {
+        width: 370px;
+    }
+    @include xxl {
+        width: 310px;
+    }
+    @include ext {
+        width: 300px;
+    }
+}
+/* ---------------------------- CSS PREGUNTAS ------------------------------ */
+.cont-subtitulos {
+    height: 70vh;
+}
+
+.titulo-subtitulo {
+    @include md {
+        height: 30vh;
+        padding-top: 4vh;
+    }
+    @include lg {
+        height: 30vh;
+        padding-top: 4vh;
+    }
+    @include xl {
+        height: 30vh;
+        padding-top: 6vh;
+    }
+    @include xxl {
+        height: 30vh;
+        padding-top: 4vh;
+    }
+    @include ext {
+        height: 30vh;
+        padding-top: 4vh;
+    }
+}
+
+.auspician {
+    @include md {
+        height: 40vh;
+    }
+    @include lg {
+        height: 40vh;
+    }
+    @include xl {
+        height: 40vh;
+    }
+    @include xxl {
+        height: 40vh;
+    }
+    @include ext {
+        height: 40vh;
+    }
+}
+
+.cont-subtitulos > div > h3 {
+    @include md {
+        font-family: 'Avenir-Heavy';
+    }
+    @include lg {
+        font-family: 'Avenir-Heavy';
+    }
+    @include xl {
+        font-family: 'Avenir-Heavy';
+    }
+    @include xxl {
+        font-family: 'Avenir-Heavy';
+    }
+    @include ext {
+        font-family: 'Avenir-Heavy';
+    }
+}
+
+.cont-subtitulos > div > hr {
+    border: 4px solid #cc004c;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.cont-subtitulos > div > h5 {
+    @include md {
+        text-transform: uppercase;
+        font-size: var(--h5-font-size);
+        line-height: 1.25rem;
+    }
+    @include lg {
+        text-transform: uppercase;
+        font-size: var(--h5-font-size);
+        line-height: 1.25rem;
+    }
+    @include xl {
+        text-transform: uppercase;
+        font-size: var(--h5-font-size);
+        line-height: 1.35rem;
+    }
+    @include xxl {
+        text-transform: uppercase;
+        font-size: var(--h5-font-size);
+        line-height: 1.25rem;
+    }
+    @include ext {
+        text-transform: uppercase;
+        font-size: var(--h5-font-size);
+        line-height: 1.25rem;
+    }
+}
+
+/*---------------- CONTENIDO DE PREGUNTAS ----------------*/
+.preguntas {
+    @include md {
+        margin-top: 20px;
+    }
+    @include lg {
+        margin-top: 20px;
+    }
+    @include xl {
+        margin-top: 50px;
+    }
+    @include ext {
+        margin-top: 50px;
+    }
+}
+/*-------- FIN SCROLL DE PREGUNTAS --------*/
+.pregunta-cond-01 > h6,
+.preguntas > h6 {
+    @include md {
+        margin-bottom: 20px;
+        font-family: 'Avenir-Medium';
+    }
+    @include lg {
+        margin-bottom: 20px;
+        font-family: 'Avenir-Medium';
+    }
+    @include xl {
+        margin-bottom: 20px;
+        font-family: 'Avenir-Medium';
+    }
+    @include ext {
+        margin-bottom: 20px;
+        font-family: 'Avenir-Medium';
+    }
+}
+
+.cont-checkbox::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+
+.cont-checkbox::-webkit-scrollbar-thumb {
+    background: $color-cuatro;
+    border-radius: 5px;
+}
+
+.form-input,
+.form-select {
+    @include md {
+        margin-bottom: -10px !important;
+    }
+    @include lg {
+        margin-bottom: -10px !important;
+    }
+    @include xl {
+        margin-bottom: 0 !important;
+    }
+}
+
+.form-input > label,
+.form-select > label {
+    @include md {
+        font-size: var(--h6-font-size);
+        font-family: 'Avenir-Light';
+        margin-top: 10px;
+        letter-spacing: 0.3px;
+    }
+    @include lg {
+        font-size: var(--h6-font-size);
+        font-family: 'Avenir-Light';
+        margin-top: 10px;
+        letter-spacing: 0.3px;
+    }
+    @include xl {
+        font-size: var(--h6-font-size);
+        font-family: 'Avenir-Light';
+        margin-top: 10px;
+        letter-spacing: 0.3px;
+    }
+    @include xxl {
+        font-size: var(--h6-font-size);
+        font-family: 'Avenir-Light';
+        margin-top: 10px;
+        letter-spacing: 0.3px;
+    }
+    @include ext {
+        font-size: var(--h6-font-size);
+        font-family: 'Avenir-Light';
+        margin-top: 10px;
+        letter-spacing: 0.3px;
+    }
+}
+
+.form-input > input {
+    @include md {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        font-family: 'Avenir-Light';
+        border: 0;
+        border-radius: 6px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include lg {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        font-family: 'Avenir-Light';
+        border: 0;
+        border-radius: 6px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include xl {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        font-family: 'Avenir-Light';
+        border: 0;
+        border-radius: 6px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include xxl {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        font-family: 'Avenir-Light';
+        border: 0;
+        border-radius: 6px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include ext {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        font-family: 'Avenir-Light';
+        border: 0;
+        border-radius: 6px;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+}
+
+.input-rut > input::placeholder {
+    color: $color-siete;
+    font-weight: 600;
+    font-family: $font-heavy;
+}
+
+.form-input > input:focus {
+    border: 1px solid $color-seis;
+    background-color: $color-dos;
+}
+
+.form-select > select {
+    @include md {
+        -webkit-appearance: none;
+        background-color: $color-seis;
+        font-family: 'Avenir-Light';
+        color: $color-uno;
+        font-size: var(--h6-font-size);
+        line-height: 18px;
+        width: 100%;
+        border: 0;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include lg {
+        -webkit-appearance: none;
+        background-color: $color-seis;
+        font-family: 'Avenir-Light';
+        color: $color-uno;
+        font-size: var(--h6-font-size);
+        line-height: 18px;
+        width: 100%;
+        border: 0;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include xl {
+        -webkit-appearance: none;
+        background-color: $color-seis;
+        font-family: 'Avenir-Light';
+        color: $color-uno;
+        font-size: var(--h6-font-size);
+        line-height: 18px;
+        width: 100%;
+        border: 0;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include xxl {
+        -webkit-appearance: none;
+        background-color: $color-seis;
+        font-family: 'Avenir-Light';
+        color: $color-uno;
+        font-size: var(--h6-font-size);
+        line-height: 18px;
+        width: 100%;
+        border: 0;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    @include ext {
+        -webkit-appearance: none;
+        background-color: $color-seis;
+        font-family: 'Avenir-Light';
+        color: $color-uno;
+        font-size: var(--h6-font-size);
+        line-height: 18px;
+        width: 100%;
+        border: 0;
+        height: 30px;
+        letter-spacing: 0.3px;
+        padding-left: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+}
+
+[type="checkbox"] {
+    display: none;
+}
+
+.check-box > label {
+    @include md {
+        font-family: 'Avenir-Light';
+        font-size: var(--h6-font-size);
+        padding-left: 2.5em;
+        padding-right: 0.5em;
+        position: relative;
+        margin-bottom: 10px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+    @include lg {
+        font-family: 'Avenir-Light';
+        font-size: var(--h6-font-size);
+        padding-left: 2.5em;
+        padding-right: 0.5em;
+        position: relative;
+        margin-bottom: 18px;
+        letter-spacing: 0.3px;
+        line-height: 22px;
+    }
+    @include xl {
+        font-family: 'Avenir-Light';
+        font-size: var(--h6-font-size);
+        padding-left: 2.5em;
+        padding-right: 0.5em;
+        position: relative;
+        margin-bottom: 18px;
+        letter-spacing: 0.3px;
+        line-height: 22px;
+    }
+    @include xxl {
+        font-family: 'Avenir-Light';
+        font-size: var(--h6-font-size);
+        padding-left: 2.5em;
+        padding-right: 0.5em;
+        position: relative;
+        margin-bottom: 18px;
+        letter-spacing: 0.3px;
+        line-height: 22px;
+    }
+    @include ext {
+        font-family: 'Avenir-Light';
+        font-size: var(--h6-font-size);
+        padding-left: 2.5em;
+        padding-right: 0.5em;
+        position: relative;
+        margin-bottom: 18px;
+        letter-spacing: 0.3px;
+        line-height: 22px;
+    }
+}
+
+.check-box > label:before {
+    @include md {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        background-color: $color-seis;
+        width: 15px;
+        height: 15px;
+        left: 0;
+    }
+    @include lg {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        background-color: $color-seis;
+        width: 18px;
+        height: 18px;
+        left: 0;
+    }
+    @include xl {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        background-color: $color-seis;
+        width: 18px;
+        height: 18px;
+        left: 0;
+    }
+    @include xxl {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        background-color: $color-seis;
+        width: 18px;
+        height: 18px;
+        left: 0;
+    }
+    @include ext {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        background-color: $color-seis;
+        width: 18px;
+        height: 18px;
+        left: 0;
+    }
+}
+
+.check-box > label > strong {
+    font-family: 'Avenir-Medium';
+}
+
+[type="checkbox"]:checked+label:before {
+    @include md {
+        color: $color-tres;
+        background-color: $color-uno;
+        content: "\f00c";
+        font-family: "FontAwesome";
+        font-size: 12px;
+        line-height: 15px;
+        padding-left: 2px;
+    }
+    @include lg {
+        color: $color-tres;
+        background-color: $color-uno;
+        content: "\f00c";
+        font-family: "FontAwesome";
+        font-size: 16px;
+        line-height: 15px;
+        padding-left: 2px;
+    }
+    @include xl {
+        color: $color-tres;
+        background-color: $color-uno;
+        content: "\f00c";
+        font-family: "FontAwesome";
+        font-size: 16px;
+        line-height: 15px;
+        padding-left: 2px;
+    }
+    @include xxl {
+        color: $color-tres;
+        background-color: $color-uno;
+        content: "\f00c";
+        font-family: "FontAwesome";
+        font-size: 16px;
+        line-height: 15px;
+        padding-left: 2px;
+    }
+    @include ext {
+        color: $color-tres;
+        background-color: $color-uno;
+        content: "\f00c";
+        font-family: "FontAwesome";
+        font-size: 16px;
+        line-height: 15px;
+        padding-left: 2px;
+    }
+}
+
+.check-text > input {
+    @include md {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        letter-spacing: 0.3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include lg {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        letter-spacing: 0.3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include xl {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        letter-spacing: 0.3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include xxl {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        letter-spacing: 0.3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include ext {
+        background-color: $color-seis;
+        font-size: var(--h6-font-size);
+        color: $color-uno;
+        border: 0;
+        border-radius: 10px;
+        height: 25px;
+        letter-spacing: 0.3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.check-text > input:focus {
+    @include md {
+        border: 1px solid $color-seis;
+        background-color: $color-dos;
+    }
+    @include lg {
+        border: 1px solid $color-seis;
+        background-color: $color-dos;
+    }
+    @include xl {
+        border: 1px solid $color-seis;
+        background-color: $color-dos;
+    }
+    @include xxl {
+        border: 1px solid $color-seis;
+        background-color: $color-dos;
+    }
+    @include ext {
+        border: 1px solid $color-seis;
+        background-color: $color-dos;
+    }
+}
+
+.cont-checkbox::-webkit-scrollbar {
+    @include md {
+        width: 7px;
+        background: transparent;
+    }
+    @include lg {
+        width: 7px;
+        background: transparent;
+    }
+    @include xl {
+        width: 7px;
+        background: transparent;
+    }
+    @include xxl {
+        width: 7px;
+        background: transparent;
+    }
+    @include ext {
+        width: 7px;
+        background: transparent;
+    }
+}
+
+.cont-checkbox::-webkit-scrollbar-thumb {
+    @include md {
+        background: $color-cuatro;
+        border-radius: 5px;
+    }
+    @include lg {
+        background: $color-cuatro;
+        border-radius: 5px;
+    }
+    @include xl {
+        background: $color-cuatro;
+        border-radius: 5px;
+    }
+    @include xxl {
+        background: $color-cuatro;
+        border-radius: 5px;
+    }
+    @include ext {
+        background: $color-cuatro;
+        border-radius: 5px;
+    }
+}
+
+.cont-condicional {
+    @include md {
+        margin-top: 20px;
+    }
+    @include lg {
+        margin-top: 30px;
+    }
+    @include xl {
+        margin-top: 40px;
+    }
+    @include xxl {
+        margin-top: 40px;
+    }
+    @include ext {
+        margin-top: 40px;
+    }
+}
+/*---------- CSS BOTONES DE AYUDA TOOLTIP ----------*/
+.btn_ayuda_01 {
+    float: right;
+}
+
+.btn_ayuda_01 > img {
+    width: 16px;
+    float: right;
+}
+/*---------- CSS SAVE AND CLOSE --------------------*/
+.saveandclose {
+    padding-top: 7vh;
+}
+
+.saveandclose > img {
+    width: 45%;
+    float: right;
+    margin-top: 10px;
+}
+
+.saveandclose > h3 {
+    margin-top: 6%;
+    font-family: 'Avenir-Black';
+    line-height: 32px;
+    font-size: 30px;
+}
+
+.texto-out > h3 {
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 30px;
+}
+/* ---------------------------- CSS LOGIN Y BACK-END ------------------------------ */
+.login-form {
+    margin-top: 14vh;
+}
+
+.form-login {
+    margin-bottom: 1.3vh;
+}
+
+.form-login > label {
+    font-family: 'Avenir-Light';
+    font-size: var(--h5-font-size);
+}
+
+.form-login > input {
+    width: 100%;
+    font-size: var(--h6-font-size);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.btn-ingresar {
+    margin-top: 4vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1367px) {
+    .form-login > input {
+        width: 100%;
+        font-size: var(--h6-font-size);
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-left: 10px;
+    }
+}
+
+.titulos h5 {
+    font-size: 14px;
+    color: $color-dos;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Avenir-Light';
+}
+
+.datos-empresa > h4 {
+    color: $color-ocho;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.empresa {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: $color-siete;
+    padding: 8px 0 6px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icono-empresa {
+    background-color: $color-dos;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 6px;
+}
+
+.icono-empresa > img {
+    height: 20px;
+    width: 20px;
+}
+
+.datos-empresa > a > img {
+    /* width: 1.7vw; */
+    margin-top: 7px;
+    height: 3vh;
+}
+
+.btn-excel {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.btn-excel > button {
+    background: none;
+    border: 1px solid $color-tres;
+    font-size: 14px;
+    font-family: "Avenir-Light";
+    font-weight: 400;
+    color: $color-dos;
+    padding: 10px 20px 8px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-excel > button:hover {
+    border: 2px solid $color-tres;
+}
+
+.btn-excel > button > img {
+    float: left;
+    width: 1vw;
+    padding-right: 3px;
+    margin-right: 6px;
+}
+
+.volver > a {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-uno;
+    background-color: $color-tres;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 6px 25px 4px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.info-org {
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    background-color: $color-siete;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.datos-empresa > h5 {
+    color: #fcb711;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.preguntas-view {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: $color-siete;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.titulo-pregunta {
+    margin-bottom: 20px;
+}
+
+.titulo-pregunta > h4 {
+    color: $color-tres;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.respuesta > select {
+    background-color: $color-ocho;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 16px;
+    color: $color-uno;
+    letter-spacing: 0.3px;
+    padding-left: 10px;
+    font-family: 'Avenir-Light';
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.check-box-view > label {
+    padding-left: 2.5em;
+    padding-right: 0.5em;
+    position: relative;
+    margin-bottom: 16px;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    color: $color-ocho;
+}
+
+.check-box-view > label:before {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    background-color: $color-ocho;
+    width: 16px;
+    height: 16px;
+    left: 0;
+}
+
+[type="checkbox"]:checked+label:before {
+    color: $color-tres;
+    content: "\f00c";
+    background-color: $color-uno;
+    font-family: "FontAwesome";
+    font-size: 14px;
+    line-height: 15px;
+    padding-left: 2px;
+}
+/* ---------------------------- CSS RESUMEN ------------------------------ */
+.titulos-resumen {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.icono-resumen > img {
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+
+.titulo-resumen > h3 {
+    color: $color-dos;
+    text-transform: uppercase;
+    margin-top: 3.5vh;
+}
+
+.list-group-flush {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    background-color: $color-uno;
+    border: 1px solid $color-dos;
+    padding: 0.45rem 1.5rem 0.45rem 0.1rem;
+    font-size: 14px;
+    color: $color-dos;
+    font-weight: 300;
+    font-family: 'Avenir-Light';
+}
+
+.list-group-item > b {
+    font-family: var(--font-medium);
+    margin-right: 5px;
+}
+
+.rubro {
+    border-bottom: 1px solid $color-dos !important;
+}
+
+.list-group-item > b {
+    font-size: 14px;
+    color: white;
+    padding-right: 10px;
+}
+
+.grafico-totales {
+    background-color: $color-dos;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 320px !important;
+    margin-top: 30px;
+}
+
+#contenido-secundario {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grafico-categorias {
+    background-color: $color-dos;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gober-trans {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color-uno;
+}
+
+.soc-per {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color-uno;
+}
+
+.medio-amb {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.titulo-gob-trans > h4 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $color-cuatro;
+    color: $color-dos;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    width: 190px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.titulo-soc-per > h4 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $color-uno;
+    color: $color-dos;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    width: 190px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.titulo-med-amb > h4 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: $color-tres;
+    color: $color-uno;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 190px;
+}
+
+.titulo-gob-trans > img,
+.titulo-med-amb > img,
+.titulo-soc-per > img {
+    width: 2.5vw;
+}
+
+.titulo-gob-trans-1,
+.titulo-med-amb-1,
+.titulo-soc-per-1 {
+    @include md {
+        padding-top: 73px;
+    }
+    @include lg {
+        padding-top: 73px;
+    }
+    @include xl {
+        padding-top: 73px;
+    }
+    @include xxl {
+        padding-top: 73px;
+    }
+    @include ext {
+        padding-top: 73px;
+    }
+}
+
+.titulo-gob-trans-1 > img,
+.titulo-med-amb-1 > img,
+.titulo-soc-per-1 > img {
+    width: 2.5vw;
+}
+
+.titulo-gob-trans > h6,
+.titulo-med-amb > h6,
+.titulo-soc-per > h6 {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.titulo-gob-trans-1 > h6,
+.titulo-med-amb-1 > h6,
+.titulo-soc-per-1 > h6 {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.fortalezas {
+    background-color: $color-seis;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.brechas {
+    background-color: $color-seis;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.brechas > li,
+.fortalezas > li {
+    font-size: 14px;
+    font-family: 'Avenir-Light';
+}
+
+#chartdiv,
+#chartdiv2,
+#chartdiv3 {
+    height: 290px !important;
+}
+
+.logocorp {
+    margin-top: 38vh;
+}
+
+.logocorp-1 {
+    margin-top: 32vh;
+}
+
+.logocorp-2 {
+    margin-top: 30vh;
+}
+
+.logocorp > img,
+.logocorp-1 > img,
+.logocorp-2 > img {
+    width: 22vw;
+    margin-left: 120px;
+}
+
+#contenido-generla {
+    background-color: $color-uno;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#pie-resumen {
+    background-color: $color-seis;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.pie-link > img {
+    height: 56px;
+}
+
+.pie-descarga > a > img {
+    width: 30px;
+}
+
+#box-mensaje{
+    background-color: $color-uno;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo-mensaje>img{
+    width: 90px;
+    float: right;
+}
+.texto-mensaje>h5{
+    color: $color-dos;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}

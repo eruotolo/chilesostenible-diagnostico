@@ -1,0 +1,288 @@
+/*-------- SCROLL DE PREGUNTAS --------------*/
+.scroll-01 {
+    @include md {
+        overflow: scroll;
+        height: 42vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 46vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 46vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-02 {
+    @include md {
+        overflow: scroll;
+        height: 25vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 30vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 35vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 35vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-03 {
+    @include md {
+        overflow: scroll;
+        height: 40vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 44vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-04 {
+    @include md {
+        overflow: scroll;
+        height: 40vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 43vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 46vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-05 {
+    @include md {
+        overflow: scroll;
+        height: 20vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 25vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 25vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-06 {
+    @include md {
+        overflow: scroll;
+        height: 52vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 53vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 53vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 53vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 52vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-07 {
+    @include md {
+        overflow: scroll;
+        height: 47vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 53vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 48vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-08 {
+    @include md {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 48vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 53vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 46vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-09 {
+    @include md {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 48vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xxl {
+        overflow: scroll;
+        height: 47vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include ext {
+        overflow: scroll;
+        height: 44vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}
+
+.scroll-10 {
+    @include md {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include lg {
+        overflow: scroll;
+        height: 45vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+    @include xl {
+        overflow: scroll;
+        height: 50vh;
+        width: 100%;
+        padding-right: 10px;
+    }
+}

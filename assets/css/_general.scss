@@ -1,0 +1,357 @@
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
+select,
+textarea {
+    font-family: "Avenir-Light";
+}
+
+h1 {
+    @include md {
+        font-size: 1.75rem;
+    }
+    @include lg {
+        font-size: 2rem;
+    }
+    @include xl {
+        font-size: 3rem;
+    }
+    @include xxl {
+        font-size: 3rem;
+    }
+    @include ext {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    @include md {
+        font-size: 1.5rem;
+    }
+    @include lg {
+        font-size: 1.75rem;
+    }
+    @include xl {
+        font-size: 2.5rem;
+    }
+    @include xxl {
+        font-size: 2.5rem;
+    }
+    @include ext {
+        font-size: 2.5rem;
+    }
+}
+
+h3 {
+    @include md {
+        font-size: 1.25rem;
+    }
+    @include lg {
+        font-size: 1.5rem;
+    }
+    @include xl {
+        font-size: 2rem;
+    }
+    @include xxl {
+        font-size: 2rem;
+    }
+    @include ext {
+        font-size: 2rem;
+    }
+}
+
+h4 {
+    @include md {
+        font-size: 1rem;
+    }
+    @include lg {
+        font-size: 1.25rem;
+    }
+    @include xl {
+        font-size: 1.5rem;
+    }
+    @include xxl {
+        font-size: 1.5rem;
+    }
+    @include ext {
+        font-size: 1.5rem;
+    }
+}
+
+h5 {
+    @include md {
+        font-size: 0.875rem;
+    }
+    @include lg {
+        font-size: 1rem;
+    }
+    @include xl {
+        font-size: 1.25rem;
+    }
+    @include xxl {
+        font-size: 1.25rem;
+    }
+    @include ext {
+        font-size: 1.25rem;
+    }
+}
+
+h6 {
+    @include md {
+        font-size: 0.75rem;
+    }
+    @include lg {
+        font-size: 0.875rem;
+    }
+    @include xl {
+        font-size: 1rem;
+    }
+    @include xxl {
+        font-size: 1rem;
+    }
+    @include ext {
+        font-size: 1rem;
+    }
+}
+
+p {
+    @include md {
+        font-size: 0.70rem;
+    }
+    @include lg {
+        font-size: 0.75rem;
+    }
+    @include xl {
+        font-size: 0.875rem;
+    }
+    @include xxl {
+        font-size: 0.875rem;
+    }
+    @include ext {
+        font-size: 0.875rem;
+    }
+}
+
+body {
+    font-family: "Avenir-Light";
+    margin: 0 auto;
+    background-color: $color-uno;
+}
+
+#cabezal {
+    @include md {
+        height: 14vh;
+    }
+    @include lg {
+        height: 14vh;
+    }
+    @include xl {
+        height: 15vh;
+    }
+    @include xxl {
+        height: 15vh;
+    }
+    @include ext {
+        height: 15vh;
+    }
+}
+
+#footer {
+    background-color: $bg-footer;
+    @include md {
+        height: 4vh;
+    }
+    @include lg {
+        height: 4vh;
+    }
+    @include xl {
+        height: 5vh;
+    }
+    @include xxl {
+        height: 5vh;
+    }
+    @include ext {
+        height: 5vh;
+    }
+}
+
+#contenido {
+    @include md {
+        height: 72vh;
+    }
+    @include lg {
+        height: 72vh;
+    }
+    @include xl {
+        height: 70vh;
+    }
+    @include xxl {
+        height: 70vh;
+    }
+    @include ext {
+        height: 70vh;
+    }
+}
+
+.container {
+    @include md {
+        max-width: 860px;
+        width: 860px;
+    }
+    @include lg {
+        max-width: 980px;
+        width: 980px;
+    }
+    @include xl {
+        max-width: 1280px;
+        width: 1280px;
+    }
+    @include xxl {
+        max-width: 1280px;
+        width: 1280px;
+    }
+    @include ext {
+        max-width: 1280px;
+        width: 1280px;
+    }
+}
+
+.contenido {
+    background-color: $color-dos;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+
+    @include md {
+        height: 70vh;
+    }
+    @include lg {
+        height: 70vh;
+    }
+    @include xl {
+        height: 70vh;
+    }
+    @include xxl {
+        height: 70vh;
+    }
+    @include ext {
+        height: 70vh;
+    }
+}
+
+.logo > img {
+    height: 10vh;
+    margin-top: 2vh;
+}
+/* ---------------------------- CSS BOTONERA -------------------------------- */
+/*-- BARRA DE PROGRESO --*/
+.progress {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 4px;
+}
+
+.bg-primary {
+    background-color: #000000 !important;
+    height: 4px;
+}
+
+.barra > p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: -12px;
+}
+/*-- FIN BARRA DE PROGRESO --*/
+.botonera {
+    height: 10vh;
+}
+/* ---------------------------- CSS FOOTER ---------------------------------- */
+.footer > h6 {
+    @include md {
+        color: $color-dos;
+        text-align: left;
+        margin-top: 0;
+    }
+    @include lg {
+        color: $color-dos;
+        text-align: left;
+        margin-top: 2px;
+    }
+    @include xl {
+        color: $color-dos;
+        text-align: left;
+        margin-top: 10px;
+    }
+    @include xxl {
+        color: $color-dos;
+        text-align: left;
+        margin-top: 10px;
+    }
+    @include ext {
+        color: $color-dos;
+        text-align: left;
+        margin-top: 10px;
+    }
+}
+
+.footer > h6 > a {
+    color: $color-dos;
+    text-decoration: none;
+}
+
+.footer-01 > a {
+    @include md {
+        color: $color-dos;
+        text-align: right;
+        margin-top: 0;
+        float: right;
+        font-size: var(--h6-font-size);
+        text-decoration: none;
+    }
+    @include lg {
+        color: $color-dos;
+        text-align: right;
+        margin-top: 2px;
+        float: right;
+        font-size: var(--h6-font-size);
+        text-decoration: none;
+    }
+    @include xl {
+        color: $color-dos;
+        text-align: right;
+        margin-top: 10px;
+        float: right;
+        font-size: var(--h6-font-size);
+        text-decoration: none;
+    }
+    @include xxl {
+        color: $color-dos;
+        text-align: right;
+        margin-top: 10px;
+        float: right;
+        font-size: var(--h6-font-size);
+        text-decoration: none;
+    }
+    @include ext {
+        color: $color-dos;
+        text-align: right;
+        margin-top: 10px;
+        float: right;
+        font-size: var(--h6-font-size);
+        text-decoration: none;
+    }
+}
