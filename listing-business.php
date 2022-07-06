@@ -105,6 +105,7 @@ if($_SESSION['login'] <> 1){
                         $col = $row['Field'];
                         echo "<td><b>{$preguntas[$col]}</b></td>";
                     }
+					echo "<td><b>Estado</b></td>";
                     echo "</tr>";
                     //print_r($columns_array);
 
@@ -115,6 +116,12 @@ if($_SESSION['login'] <> 1){
                         foreach ($columns_array as $i) {
                             echo "<td>{$row[$i]}</td>";
                         }
+						if ($row['p40-1'] == '') {
+							echo "<td>Borrador</td>";
+						} else {
+							echo "<td>Terminada</td>";
+						}
+						
                         echo "</tr>";
                     }
                     ?>
