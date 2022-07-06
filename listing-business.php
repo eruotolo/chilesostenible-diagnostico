@@ -116,10 +116,17 @@ if($_SESSION['login'] <> 1){
                         foreach ($columns_array as $i) {
                             echo "<td>{$row[$i]}</td>";
                         }
-						if ($row['p40-1'] == '') {
-							echo "<td>Borrador</td>";
-						} else {
+						if ($row['p40-1'] <> '' || $row['p40-2'] <> ''
+						|| $row['p40-3'] <> ''
+						|| $row['p40-4'] <> ''
+						|| $row['p40-5'] <> ''
+						|| $row['p40-6'] <> ''
+						|| $row['p40-7'] <> ''
+						|| $row['p40-8'] <> ''
+						) {
 							echo "<td>Terminada</td>";
+						} else {
+							echo "<td>Borrador</td>";
 						}
 						
                         echo "</tr>";
