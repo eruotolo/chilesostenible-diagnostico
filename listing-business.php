@@ -83,7 +83,7 @@ if($_SESSION['login'] <> 1){
                         </div>
                     </div>
                 </section>
-                <table id='excel' >
+                <table id='excel' style='display:none'>
                     <?php
                     $sql = "SET NAMES 'utf8'";
                     $result = mysqli_query($db, $sql);
