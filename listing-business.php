@@ -83,7 +83,7 @@ if($_SESSION['login'] <> 1){
                         </div>
                     </div>
                 </section>
-                <table id='excel' style='display:none'>
+                <table id='excel' >
                     <?php
                     $sql = "SET NAMES 'utf8'";
                     $result = mysqli_query($db, $sql);
@@ -113,9 +113,6 @@ if($_SESSION['login'] <> 1){
                     $result = mysqli_query($db, $sql);
                     while ($row = mysqli_fetch_array($result)) {
                         echo "<tr>";
-                        foreach ($columns_array as $i) {
-                            echo "<td>{$row[$i]}</td>";
-                        }
 						if ($row['p40-1'] <> '' || $row['p40-2'] <> ''
 						|| $row['p40-3'] <> ''
 						|| $row['p40-4'] <> ''
@@ -124,7 +121,27 @@ if($_SESSION['login'] <> 1){
 						|| $row['p40-7'] <> ''
 						|| $row['p40-8'] <> ''
 						) {
-							echo "<td>Terminada</td>";
+							$terminado = 1;
+							
+						} else {
+							$terminado = 0;
+							
+						}						
+                        foreach ($columns_array as $i) {
+							if ($terminado == 0) {
+								echo "<td>{$row[$i]}</td>";
+							} else {
+								if ($row[$i] == '') {
+									echo "<td>No</td>";
+								} else {
+									echo "<td>{$row[$i]}</td>";
+								}
+							}
+                            
+                        }
+						
+						if ($terminado == 1) {
+							echo "<td>Terminada</td>";							
 						} else {
 							echo "<td>Borrador</td>";
 						}
